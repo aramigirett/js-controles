@@ -16,11 +16,14 @@ btnMostrar.addEventListener("click", function(){
     //console.log('haciendo click');
     //alert("hice click");
     //recuperando info del formulario
+    
     const nombres = document.getElementById("txtNombre").value;
-    const apellido = document.getElementById("txtApelldo").value;
+    const apellido = document.getElementById("txtApellido").value;
     const cedula = document.getElementById("txtCedula").value;
     const direccion = document.getElementById("txtDireccion").value;
-    console.log('nombres' + nombres + ',apellidos' + apellido + ',cedula' + cedula + 'direccion' + direccion+);
+    console.log('nombres' + nombres + ',apellidos' + apellido + ',cedula' + cedula + 'direccion' + direccion);
+    console.log('informacion registrada');
+    alert("informacion registrada");
 });
 
 
