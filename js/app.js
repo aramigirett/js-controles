@@ -19,7 +19,8 @@ btnMostrar.addEventListener("click", function(){
     const nombres = document.getElementById("txtNombre").value;
     const apellido = document.getElementById("txtApelldo").value;
     const cedula = document.getElementById("txtCedula").value;
-    console.log('nombres' + nombres + ',apellidos' + apellido + ',cedula' + cedula);
+    const direccion = document.getElementById("txtDireccion").value;
+    console.log('nombres' + nombres + ',apellidos' + apellido + ',cedula' + cedula + 'direccion' + direccion+);
 });
 
 function hola(nombre, apellido) {
