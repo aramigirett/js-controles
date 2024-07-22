@@ -23,6 +23,7 @@ btnMostrar.addEventListener("click", function(){
     console.log('nombres' + nombres + ',apellidos' + apellido + ',cedula' + cedula + 'direccion' + direccion+);
 });
 
+
 function hola(nombre, apellido) {
     console.log(nombre, apellido);
     //codigo reutilizable
